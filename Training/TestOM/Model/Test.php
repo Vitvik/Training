@@ -34,8 +34,6 @@ class Test
         echo'<br>';
         print_r($this->arrayList);
         echo'<br>';
-        echo 'ManagerInterfaceFactory';
-        echo'<br>';
         $newmaneger = $this->managerFactory->create();
         print_r(get_class( $newmaneger));
     }
