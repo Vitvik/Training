@@ -7,8 +7,6 @@ use Magento\Framework\App\ResponseInterface;
 
 class FrontController extends \Magento\Framework\App\FrontController
 {
-    protected $_routerList;
-    protected $response;
     private  $logger;
 
     public function __construct(
@@ -18,8 +16,6 @@ class FrontController extends \Magento\Framework\App\FrontController
     )
     {
         parent::__construct($routerList, $response);
-        $this->_routerList = $routerList;
-        $this->response = $response;
         $this->logger = $logger;
     }
 
