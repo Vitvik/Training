@@ -7,6 +7,8 @@ class Description
     public function beforeToHtml(
         \Magento\Catalog\Block\Product\View\Description $subject
     ){
-        return  $subject->setTemplate('Training_TestDescription::description.phtml');
+        if($subject->getNameInLayout() == 'product.info.sku') {
+            return $subject->setTemplate('Training_TestDescription::description.phtml');
+        }
     }
 }
