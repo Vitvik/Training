@@ -18,7 +18,7 @@ class Index extends \Magento\Framework\App\Action\Action
         parent::__construct($context);
     }
 
-    public function Execute()
+    public function execute()
     {
        $layout = $this->layoutFactory->create();
        $block =  $layout->createBlock('Training\TestBlock\Block\Test');
