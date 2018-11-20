@@ -3,5 +3,14 @@
     <head>
         <title>Success Page</title>
     </head>
+    <body>
+        <!--<referenceContainer name="content">-->
+            <!--<block class="Magento\Framework\View\Element\Template" name="testargument" template="Training_Render::testargument.phtml">-->
+                <!--<arguments>-->
+                    <!--<argument name="background-color" xsi:type="string">lightskyblue</argument>-->
+                <!--</arguments>-->
+            <!--</block>-->
+        <!--</referenceContainer>-->
+    </body>
 </page>
 
